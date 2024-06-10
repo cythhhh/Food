@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg5">
+
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="美食"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <!-- 第一组图片和文字 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/food1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/food1"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="美食id:000001"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:paddingTop="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="美食名称：花雕醉鸡"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:paddingTop="8dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="地点：东门丁一鸣花雕醉鸡"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:paddingTop="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="时间：2024年1月1日"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:paddingTop="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="推荐理由：特别特别好吃！开业打折优惠多多！"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:paddingTop="4dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
